@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Feb  8 14:42:59 2023
+# Process ID: 10772
+# Current directory: C:/Users/palad/Downloads/Pipeline_DSD/Pipeline_DSD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13832 C:\Users\palad\Downloads\Pipeline_DSD\Pipeline_DSD\Pipeline_DSD.xpr
+# Log file: C:/Users/palad/Downloads/Pipeline_DSD/Pipeline_DSD/vivado.log
+# Journal file: C:/Users/palad/Downloads/Pipeline_DSD/Pipeline_DSD\vivado.jou
+# Running On: DESKTOP-ECKM9MM, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 12764 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/palad/Downloads/Pipeline_DSD/Pipeline_DSD/Pipeline_DSD.xpr
+update_compile_order -fileset sources_1
+
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+restart
+run all
+save_wave_config {C:/Users/palad/Downloads/Pipeline_DSD/Pipeline_DSD/test_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/palad/Downloads/Pipeline_DSD/Pipeline_DSD/test_behav.wcfg
